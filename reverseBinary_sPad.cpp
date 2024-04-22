@@ -1,10 +1,5 @@
-/******************************************************************************
+// https://leetcode.com/problems/reverse-bits/description/
 
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 
 #include <iostream>
 #include <math.h>
@@ -64,10 +59,23 @@ int main()
     // ---------------------------- loop to extract all the bits works ----------------------------- 
     
     // we want to create a vector where we will put 
-    // first we will check how 
+    // first we will check how elements are stored
+    // create a vector to push 5 elements then if i read them back what is the order ? 
     
+    vector<int> bits;
+    bits.push_back(1);
+    bits.push_back(2);
+    bits.push_back(3);
+    // elems are in sequence if read fro
+    for(int eachElem: bits){
+        cout << eachElem << endl;    
+    }
+    cout << endl;
+    reverse(bits.begin(), bits.end());
     
     
     return 0;
 }
+
+
 
