@@ -1,3 +1,6 @@
+// https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html  helped this
+
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
